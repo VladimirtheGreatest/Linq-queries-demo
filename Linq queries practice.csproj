@@ -6,4 +6,8 @@
     <RootNamespace>Linq_queries_practice</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Queries\Queries.csproj" />
+  </ItemGroup>
+
 </Project>

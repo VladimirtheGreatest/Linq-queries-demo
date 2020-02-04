@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Queries.Method_Syntax;
+using System;
 using System.Linq;
 
 namespace Linq_queries_practice
@@ -15,12 +16,16 @@ namespace Linq_queries_practice
             //query syntax
             var query2 = from something in array
                          where something % 2 == 0
+                         select something;
 
 
             foreach (var item in query)
             {
                 Console.WriteLine(item);
             }
+
+            RangeOfNumbers range = new RangeOfNumbers();
+            range.bullshit();
         }
     }
 }
