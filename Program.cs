@@ -25,7 +25,15 @@ namespace Linq_queries_practice
             }
 
             RangeOfNumbers range = new RangeOfNumbers();
+            FindSquare findsquare = new FindSquare();
+            NumberFrequency numberFrequency = new NumberFrequency();
+            StringFrequency stringFrequency = new StringFrequency();
+            DaysOfWeek daysOfWeek = new DaysOfWeek();
             range.bullshit();
+            findsquare.FindSquareMethod();
+            numberFrequency.FindFrequency();
+            stringFrequency.FindString();
+            daysOfWeek.LoadDays();
         }
     }
 }
