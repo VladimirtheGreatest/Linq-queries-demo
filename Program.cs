@@ -30,12 +30,14 @@ namespace Linq_queries_practice
             StringFrequency stringFrequency = new StringFrequency();
             DaysOfWeek daysOfWeek = new DaysOfWeek();
             GroupBy groupBy = new GroupBy();
-            range.bullshit();
-            findsquare.FindSquareMethod();
-            numberFrequency.FindFrequency();
-            stringFrequency.FindString();
-            daysOfWeek.LoadDays();
-            groupBy.GetUsers();
+            MagicalNumbers magic = new MagicalNumbers();
+            //range.bullshit();
+            //findsquare.FindSquareMethod();
+            //numberFrequency.FindFrequency();
+            //stringFrequency.FindString();
+            //daysOfWeek.LoadDays();
+            //groupBy.GetUsers();
+            magic.GetNumbersFrequency();
         }
     }
 }
