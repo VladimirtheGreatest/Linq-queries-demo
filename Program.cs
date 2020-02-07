@@ -31,13 +31,21 @@ namespace Linq_queries_practice
             DaysOfWeek daysOfWeek = new DaysOfWeek();
             GroupBy groupBy = new GroupBy();
             MagicalNumbers magic = new MagicalNumbers();
+            StartEnd startEnd = new StartEnd();
+            ListOfNumbers printList = new ListOfNumbers();
+            TopRecords sortThem = new TopRecords();
             //range.bullshit();
             //findsquare.FindSquareMethod();
             //numberFrequency.FindFrequency();
             //stringFrequency.FindString();
             //daysOfWeek.LoadDays();
             //groupBy.GetUsers();
-            magic.GetNumbersFrequency();
+            // magic.GetNumbersFrequency();
+            //startEnd.ReturnString();
+            //printList.WhichNumber();
+            sortThem.SortThem();
+
+
         }
     }
 }
